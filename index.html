@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Number Guessing game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="bigbox">
+      <div id="minibox">Number Guessing Game</div>
+      <div id="guesstext">
+        Try and guess a number between 1 to 100. You have 10 chances to guess
+        the number.
+      </div>
+      <div id="guess">
+        <label for="dibba" id="labeller">Guess a number</label>
+        <br />
+        <br />
+
+        <input type="text" id="dibba" placeholder="Enter the number" />
+        <br />
+        <br />
+
+        <button id="submitter">Submit Guess</button>
+        <br />
+        <br />
+      </div>
+      Previous Guesses:
+      <div style="margin-left: 32%; color: white" id="pg"></div>
+      <br />
+      Guesses remaining:
+      <div style="margin-left: 30%; color: white" id="gr"></div>
+      <div id="update">ye</div>
+    </div>
+    <script src="start.js"></script>
+  </body>
+</html>
